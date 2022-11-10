@@ -55,3 +55,23 @@
     </body>
 </html>
 ```
+
+- Sample of `third` response
+```
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <img src="https://ups.analytics.yahoo.com/ups/55940/sync?_origin=1&amp;redir2=true&amp;uid=Y2VzLLHsSQxXrfSjMFJ0AwAAArwAAAIB&amp;gdpr_consent=&amp;us_privacy=&amp;gdpr=" style="display:none" width="0" height="0" alt="" border="0"/>
+        <img src="https://s.amazon-adsystem.com/dcm?pid=78af914c-e755-4b90-bded-1b172aedc763&amp;us_privacy=&amp;gdpr=&amp;gdpr_consent=&amp;id=Y2VzLLHsSQxXrfSjMFJ0AwAAArwAAAIB" style="display:none" width="0" height="0" alt="" border="0"/>
+        <img src="https://cm.g.doubleclick.net/pixel?google_nid=index&amp;google_cm&amp;google_hm=Y2VzLLHsSQxXrfSjMFJ0AwAAArwAAAIB&amp;gdpr_consent=&amp;us_privacy=&amp;gdpr=" style="display:none" width="0" height="0" alt="" border="0"/>
+        <img src="https://ad4m.at/ad/sim/ix" style="display:none" width="0" height="0" alt="" border="0"/>
+        <img src="https://dpm.demdex.net/ibs:dpid=23728&amp;dpuuid=Y2VzLLHsSQxXrfSjMFJ0AwAA%26700?gdpr_consent=&amp;us_privacy=&amp;gdpr=" style="display:none" width="0" height="0" alt="" border="0"/>
+        <img src="https://csync.loopme.me/?redirect=https%3A%2F%2Fdsum-sec.casalemedia.com%2Frum%3Fcm_dsp_id%3D24%26external_user_id%3D%7Bviewer_token%7D&amp;us_privacy=&amp;gdpr=&amp;gdpr_consent=" style="display:none" width="0" height="0" alt="" border="0"/>
+        <img src="https://pr-bh.ybp.yahoo.com/sync/casale/Y2VzLLHsSQxXrfSjMFJ0AwAAArwAAAIB?gdpr_consent=&amp;us_privacy=&amp;gdpr=" style="display:none" width="0" height="0" alt="" border="0"/>
+        <img src="https://cdn.indexww.com/ht/htw-pixel.gif?Y2VzLLHsSQxXrfSjMFJ0AwAA%26700" style="display:none" width="0" height="0" alt="" border="0"/>
+    </body>
+</html>
+
+```
