@@ -19,6 +19,7 @@
 - `usermatch` endpoint seems to be hosted on `CloudFlare Worker`, it sets the User Cookie and in response returns the DSP pixels to be fired 
 - Total cookies set: `3`
 - Total cookie character length including cookie name and value: `45`
+- **All of the following calls have the same DSP pixels fired in different sequence. Looks like they have prioritized only these DSP pixels and they do not keep track whether the pixels are already executed or not, they keep executing the same pixels again and again.**
 - Sample of first response below, User ID is shared with DSPs in query params
 ```
 <html>
