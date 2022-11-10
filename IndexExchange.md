@@ -17,6 +17,8 @@
 - `ixmatch.html` has code to read consent from CMPs and to initiate the further user-syncup
 - `ixmatch.html` initaes call to `https://ssum-sec.casalemedia.com/usermatch?` as an `iframe`. The Consent params are passed as query-params if those are available.
 - `usermatch` endpoint seems to be hosted on `CloudFlare Worker`, it sets the User Cookie and in response returns the DSP pixels to be fired 
+- Total cookies set: `3`
+- Total cookie character length including cookie name and value: `45`
 - Sample of first response below, User ID is shared with DSPs in query params
 ```
 <html>
