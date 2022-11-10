@@ -17,10 +17,10 @@
 - `ixmatch.html` has code to read consent from CMPs and to initiate the further user-syncup
 - `ixmatch.html` initaes call to `https://ssum-sec.casalemedia.com/usermatch?` as an `iframe`. The Consent params are passed as query-params if those are available.
 - `usermatch` endpoint seems to be hosted on `CloudFlare Worker`, it sets the User Cookie and in response returns the DSP pixels to be fired 
-- Total cookies set: `3`
-- Total cookie character length including cookie name and value: `45`
+- Total SSP cookies set: `3`
+- Total SSP cookies character length including cookie name and value: `45`
 - **All of the following calls have the same DSP pixels fired in different sequence. Looks like they have prioritized only these DSP pixels and they do not keep track whether the pixels are already executed or not, they keep executing the same pixels again and again.**
-- Sample of first response below, User ID is shared with DSPs in query params
+- Response of the `first` request below, User ID is shared with DSPs in query params
 ```
 <html>
     <head>
@@ -38,9 +38,11 @@
     </body>
 </html>
 ```
+
 - Does DSP pixel redirects back to SSP endpoint like PubMatic's `PUG`? : `NO`
 - Is there a call to SSP endpoint like PubMatic's `SPUG`? : `NO`
-- Sample of `second` response below
+
+- Response of the `first` request below,
 ```
 <html>
     <head>
@@ -59,7 +61,7 @@
 </html>
 ```
 
-- Sample of `third` response
+- Response of the `first` request below,
 ```
 <html>
     <head>
