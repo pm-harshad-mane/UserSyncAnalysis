@@ -1,6 +1,7 @@
 ## IndexExchange
 
-- End point mentioned in Prebid JS: `https://js-sec.indexww.com/um/ixmatch.html`
+- UserSync entry point mentioned in Prebid JS: `https://js-sec.indexww.com/um/ixmatch.html`
+- Eentry point domain: `js-sec.indexww.com`
 - Type: `Iframe`
 - Code Reference: https://github.com/prebid/Prebid.js/blob/master/modules/ixBidAdapter.js#L46
 - Are GDPR params explicitly passed to end-point mentioned in PBJS? `NO`
@@ -10,6 +11,7 @@
 - User Cookie Name: `CMID`
 - User Cookie Domain: `casalemedia.com`
 - User Cookie expiry: `1 year`
+- PubMatic `PugMaster` like end-point domain: `https://ssum-sec.casalemedia.com`
 
 ## Flow
 - `ixmatch.html` has code to read consent from CMPs and to initiate the further user-syncup
