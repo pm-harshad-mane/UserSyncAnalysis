@@ -42,7 +42,7 @@
 - Does DSP pixel redirects back to SSP endpoint like PubMatic's `PUG`? : `NO`
 - Is there a call to SSP endpoint like PubMatic's `SPUG`? : `NO`
 
-- Response of the `first` request below,
+- Response of the `second` request below,
 ```
 <html>
     <head>
@@ -61,7 +61,7 @@
 </html>
 ```
 
-- Response of the `first` request below,
+- Response of the `third` request below,
 ```
 <html>
     <head>
