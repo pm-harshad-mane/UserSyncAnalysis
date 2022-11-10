@@ -32,5 +32,6 @@
         <img src="https://cdn.indexww.com/ht/htw-pixel.gif?Y2VzLLHsSQxXrfSjMFJ0AwAA%26700" style="display:none" width="0" height="0" alt="" border="0"/>
     </body>
 </html>
-
 ```
+- Does DSP pixel redirects back to SSP endpoint like PubMatic's `PUG`? : `NO`
+- Is there a call to SSP endpoint like PubMatic's `SPUG`? : `NO`
